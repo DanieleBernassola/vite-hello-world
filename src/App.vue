@@ -1,6 +1,7 @@
 <!-- SCRIPT = JS -->
 <script>
 import TitleComponent from "./components/AppTitle.vue";
+import JumboComponent from "./components/AppHero.vue";
 export default {
   name: 'myApp',
   data() {
@@ -11,13 +12,15 @@ export default {
   // COMPONENTI CHE IMPORTO
   components: {
     TitleComponent,
+    JumboComponent
   },
 };
 </script>
 <!-- TEMPLATE = HTML -->
 <template>
-  <!-- POSSO UTILIZZARE IL COMPONENTE IMPORTATO COME TAG HTML -->
+  <!-- POSSO UTILIZZARE I COMPONENTI IMPORTATI COME TAG HTML -->
   <TitleComponent></TitleComponent>
+  <JumboComponent></JumboComponent>
 </template>
 <!-- STYLE = CSS -->
 <style></style>
